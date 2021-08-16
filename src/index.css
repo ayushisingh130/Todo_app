@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(228, 222, 222);
+}
+
+.add{
+  cursor:pointer;
+  padding: 2px 12px;
+  border: 2px rgb(247, 245, 245) solid;
+  border-radius: 50%;
+  color:white;
+  background-color:#283655 ;
+  font-weight: bolder;
+  font-size: 30px;
+  box-shadow: 0px 2px 4px 2px #5eb0c9;
+  outline: none;
+  height: 40px;
+}
+.add:hover{
+  background-color: #d0e1f9;
+  color:#283655;
+  cursor: pointer;
+}
+.delete{
+  cursor:pointer;
+  padding: 3px 10px;
+  border: 3px rgb(247, 245, 245) solid;
+  border-radius: 25px;
+  color:white;
+  background-color:#283655;
+  font-weight: bolder;
+  font-size: 25px;
+  box-shadow: 0px 2px 4px 2px #5caec7;
+  margin-left: 5px;
+  height: 40px;
+}
+
+.delete:hover{
+  background-color:rgb(248, 131, 150);
+  color:#283655 ;
+  cursor: pointer;
+}
+
+
+h1{
+  align-self: center;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0px;
+  width: 100%;
+  text-shadow:2px 0px rgb(173, 170, 170);
+  background-color:#283655;
+  box-shadow: 0px 2px 4px 0px #6d7d97;
+}
+
+.main_div{
+  height: 100vh;
+  width: 100%;
+  background-color:#4d648d;
+  padding: 40px 0px;
+}
+
+.center_div{
+  height: 90vh;
+  border: 1px rgb(125, 131, 130) solid;
+  border-radius: 20px;
+  width: 35%;
+  margin: 0px auto;
+  background-color: #d0e1f9;
+  box-shadow: 2px 2px 4px 0px #384b6d;
+}
+
+input{
+  border: none;
+  border-bottom: 2px #283655  solid;
+  border-width: thin;
+  width: 60%;
+  margin: 0px 20px;
+  text-align: center;
+  background-color:  #d0e1f9;
+  outline: none;
+  color: rgb(248, 131, 150);
+  font-size: 30px;
+}
+.todo_style{
+  display:flex;
+  color:#283655;
+  background-color:  #d0e1f9;
+  font-size: 12px;
+  margin:10px 4px 0px 4px;
+  width: 97%;
+  border-radius: 2px;
+  padding: 2px 0px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 2px #b9dce7
+}
+
+li{ 
+  color:#283655;
+  background-color:  #d0e1f9;
+  font-size: 30px;
+  margin-left: 5px;
+  width: 80%;
+  overflow-wrap: break-word;
+}
+ol{
+  color:#283655;
+  background-color:  #d0e1f9;
+  font-size: 12px;
+  text-align: center;
+  list-style: none;
+  float: left;
+  width: 100%;
+}
+
+
